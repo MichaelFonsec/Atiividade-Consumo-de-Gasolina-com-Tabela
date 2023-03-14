@@ -1,0 +1,108 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('https://media.tenor.com/5XeYRKLPdowAAAAM/lofi.gif');
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+color: #fff;
+background-color:  rgba(15, 27, 95, 0.868);
+padding: 15px 15px 15px 15px;
+border-radius: 10%;
+justify-content: center;
+border: solid 4px #000;
+opacity: inherit;
+}
+
+
+input{
+margin-top: 15px;
+justify-content: center;
+font-size: 30px;
+height: 35px;
+}
+
+button{
+font-family:'Times New Roman', serif;
+display: flex;
+justify-content: center;
+margin-top: 15px;
+}
+
+h1{
+    align-items: center;
+   font-family: 'Orbitron';
+    margin-top: 20px;
+    color: #fff;
+    display: flex;
+}
+
+h2{
+ font-family:'Lucida Sans Unicode' ;
+ margin-top: 40px;
+ display: flex;
+ justify-content: center;
+ color: violet;
+
+}
+
+
+#tabelac {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tabelac:th ,#tabelac:td{
+ text-align: left;
+ padding: 8px;
+ border-bottom: 1px solid rgb(2, 105, 223);
+}
+
+#tabelac:th{
+color: #fff;
+
+}
+
+.tabelac {
+ width: 100%;
+ margin: 20px 0;
+ border-collapse: collapse;
+}
+
+.tabelac:th, tabelac:td{
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+
+
+tr {
+background-color:  #2861ff;
+    text-align: left;
+   border: 3px solid #000;
+   border-collapse: collapse;
+}
+
+
+tr{
+    border-left-color: black;
+}
+td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+
